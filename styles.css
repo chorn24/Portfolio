@@ -1,6 +1,6 @@
 
 .MainBody {
-    background-image:linear-gradient(to bottom right, #b3ecb8,#ab8dc6);
+    background-image:linear-gradient(to right, #b3ecb8,#ab8dc6);
 }
 
 .forgradient, .MainBody {
@@ -109,37 +109,46 @@
 
 .Star_ {
     width: 100pt;
+    height: 40pt;
 }
 
 .Goat_ {
     width: 115pt;
+    height: 40pt
 }
 
 .Home_ {
     width: 90pt;
-    height: 43px;
+    height: 60px;
+}
+
+.me {
+    width: 200pt;
 }
 
 @media only screen and (max-width:420px){
     .MainBody {
-        background-image:linear-gradient(to bottom, #b3ecb8,#ab8dc6);
+        background-image:linear-gradient(to right, #b3ecb8,#ab8dc6);
     }
     
     .forgradient, .MainBody {
         margin: 0;
         padding: 0;
-        height: 800px;
+        height: 100%;
+        width: 432px;
     }
-
+    
     .Text {
         font-family: Cascadia Code;
         text-align: center;
+        font-size: 10pt;
     }
     
     .Header_ {
         background-image: linear-gradient(to right,rgb(73, 96, 72), rgb(106, 137, 105), rgb(113, 152, 112), rgb(106, 137, 105), rgb(73, 96, 72));
         height: 30pt;
         text-align: center;
+        
     }
     
     .Name {
@@ -229,20 +238,24 @@
     }
     
     .Star_ {
-        width: 75pt;
+        width: 100pt;
+        height: 40pt;
     }
     
     .Goat_ {
-        width: 80pt;
+        width: 115pt;
+        height: 40pt
     }
     
     .Home_ {
-        width: 75pt;
-        height: 35px;
+        width: 90pt;
+        height: 60px;
     }
     
-}
-
+    .me {
+        width: 200pt;
+    }
+/*    
 @media only screen and (min-width:421px){
     .MainBody {
         background-image:linear-gradient(to bottom, #b3ecb8,#ab8dc6);
