@@ -1,4 +1,9 @@
 
+.glow {
+    text-shadow: 0 0 30px #40e957, 0 0 40px #40e957, 0 0 50px #40e957, 0 0 60px #40e957, 0 0 70px #40e957;
+    color: #c2ffca
+}
+
 .MainBody {
     background-image:linear-gradient(to right, #b3ecb8,#ab8dc6);
 }
