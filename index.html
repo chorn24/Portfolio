@@ -4,27 +4,43 @@
 <link rel="stylesheet" href="styles.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Caleb Horn's Portfolio</title>
-<header class="Header_ STool">
+<header class="Header_ STool" id="HeadBod">
     <a href="https://github.com/chorn24" target="_blank"><img src="images/github-logo.png" alt="Github" class="git-icon" title="My Github Account"></a>
     <text class="Text VAlign">Caleb Horn</text>
     <a href="mailto: calebhorn24@gmail.com"><img src="images/Email2.png" alt="email" class="Email" title="Email me!"></a>
 </header>
-    <body class="MainBody">
+    <body class="MainBody" id="MainBody">
         <br><br><br>
+        <button class="ButtonLight" id="DarkMode" onclick="ToggleDark()">Dark Mode Toggle</button>
+        <script src="main.js"></script>
+        <br>
         <table class="Table_2">
             <tr>
                 <td>
-        <img src="images/DSC_0222.JPG" class="me">
+        <img src="images/DSC_0222.JPG" class="me" id="Me">
+                </td>
+            </tr>
+            <tr>
+                <td class="Text3">
+                    <a href="images/Caleb Horn's Resume.pdf" target="_blank">My Resume</a>
                 </td>
             </tr>
         </table>
+        <br>
         <h1 class="Text Name">About Me</h1>
-        <p class="Text AboutMe">Hi there! Im Caleb Horn. I come from a military family and moved around a lot but I was born in Anchorage, Alaska. In 2018 I moved to Water Valley, MS. From 3rd grade to graduation I was home schooled. The majority of my life I have been interested in coding. Shortly before graduation I heard about a place called Base Camp Coding Academy, I applied there and I am currently attending the year long program. B.C.C.A. is a non-profit organization that teaches highschool graduates about several different coding languages and about professionalism, raising them to be software developers. I am currently employed as a Storage Room Manager at mechanics bank/bank first in Water Valley</p>
+        <table class="Table_3">
+            <tr>
+                <td>
+                    <p class="Text">Hi there! Im Caleb Horn. I come from a military family and moved around a lot but I was born in Anchorage, Alaska. In 2018 I moved to Water Valley, MS. From 3rd grade to graduation I was home schooled. The majority of my life I have been interested in coding. Shortly before graduation I heard about a place called Base Camp Coding Academy, I applied there and I am currently attending the year long program. B.C.C.A. is a non-profit organization that teaches highschool graduates about several different coding languages and about professionalism, raising them to be software developers. I am currently employed as a Storage Room Manager at Mechanics Bank/Bank First in Water Valley</p>
+                </td>
+            </tr>
+        </table>
+        
         <table class="TableAlign">
             <tr>
                 <td>
                     <h1 class="Text glow">Skills</h1>
-        <table class="Table_ Background">
+        <table class="Table_ Background" id="DarkModeTable">
             <tr>
                 <td class="Text2">Python</td>
                 <td class="Text2">SQL</td>
@@ -78,7 +94,7 @@
     </td>
     <td>
         <h1 class="Text glow">Projects</h1>
-        <table class="Table_ Background">
+        <table class="Table_ Background" id="DarkModeTable1">
             <tr>
                 <td class="Text2 Padding">Star Explorer</td>
                 <td class="Text2 Padding">GOAT project</td>
