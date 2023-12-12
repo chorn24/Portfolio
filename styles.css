@@ -20,11 +20,14 @@
 
 .MainBody {
     background-image:linear-gradient(to right, #d5ecd7,#b3ecb8);
+    background-size: cover;
+    color: rgb(0, 46, 0);
 }
 
 .DarkModeBody {
     background-image:linear-gradient(to right, #3a2942,#1c0d23);
-    color:rgb(168, 107, 193)
+    color:rgb(231, 175, 255);
+    background-size: cover;
 }
 
 .DarkModeHeader{
@@ -51,6 +54,7 @@
 .Text {
     font-family: Cascadia Code;
     text-align: center;
+    font-size: 15pt;
 }
 
 .Text3 {
@@ -214,7 +218,32 @@
     color:rgb(168, 107, 193);
 }
 
+
+
+
+
+
+
 @media only screen and (max-width:420px){
+    .forgradient, .MainBody {
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+/*
+
     .DarkBackground {
         background: rgb(52, 29, 66);
         border-radius: 20pt;
@@ -254,11 +283,13 @@
     
     .MainBody {
         background-image:linear-gradient(to right, #d5ecd7,#b3ecb8);
+        background-size: cover;
     }
     
     .DarkModeBody {
         background-image:linear-gradient(to right, #3a2942,#1c0d23);
-        color:rgb(168, 107, 193)
+        color:rgb(168, 107, 193);
+        background-size: cover;
     }
     
     .forgradient, .MainBody {
@@ -271,7 +302,6 @@
     .Text {
         font-family: Cascadia Code;
         text-align: center;
-        font-size: 10pt;
     }
     
     .Header_ {
@@ -313,6 +343,7 @@
         content: url(images/gitline.webp);
         width: 30pt;
         height: 30pt;
+        cursor: pointer;
     }
     
     .phone {
@@ -325,6 +356,7 @@
     
     .Email:hover {
         content: url(images/openemail.png);
+        cursor: pointer;
     }
     
     .CurrentPage {
@@ -392,3 +424,5 @@
         box-shadow: 5px 5px;
     }
 }
+
+*/
