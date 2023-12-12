@@ -12,6 +12,12 @@ function ToggleDark() {
     var element3 = document.getElementById("DarkModeTable1");
     element3.classList.toggle("DarkBackground");
 
+    var element3 = document.getElementById("DarkModeTable2");
+    element3.classList.toggle("DarkBackground");
+
+    var element3 = document.getElementById("DarkModeTable3");
+    element3.classList.toggle("DarkBackground");
+
     var element4 = document.getElementById("DarkMode");
     element4.classList.toggle("ButtonDark")
 

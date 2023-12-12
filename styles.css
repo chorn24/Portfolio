@@ -60,7 +60,7 @@
 .Text3 {
     font-family: Cascadia Code;
     text-align: center;
-    font-size: 10pt;
+    font-size: 15pt;
 }
 
 .Header_ {
@@ -123,16 +123,44 @@
     margin-left: auto;
     margin-right: auto;
     width: 400pt;
-    height: 155pt;
+    /*height: 155pt;*/
     display: flex;
     justify-content: center;
 }
+
+.Table_Mobile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 210pt;
+    /*display: none;*/
+    justify-content: center;
+}
+
+.MobileDiv{
+    display: none;
+}
+
+.Table_Mobile2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 210pt;
+    /*height: 140pt;*/
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Invis {
+    display: none;
+}
+
 
 .Table_2 {
     margin-left: auto;
     margin-right: auto;
     width: 210pt;
-    height: 140pt;
+    /*height: 140pt;*/
     display: flex;
     justify-content: center;
 }
@@ -143,6 +171,15 @@
     width: 75%;
 
 }
+
+.CenterTheBoi {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 300pt;
+}
+
+
 
 .TableAlign {
     margin-left: auto;
@@ -221,18 +258,37 @@
 
 
 
-
-
-
 @media only screen and (max-width:420px){
+
+
+    .NotMobile {
+        display: none;
+    }
+
     .forgradient, .MainBody {
         margin: 0;
         padding: 0;
     }
 
+    .MobileDiv{
+        display: block;
+    }
+    .Header_ {
+        background-image: linear-gradient(to right,#496048, rgb(106, 137, 105), rgb(113, 152, 112), rgb(106, 137, 105), rgb(73, 96, 72));
+        height: 30pt;
+        text-align: center;
+        position: fixed;
+    }
+    .MainBody {
+        background-image:linear-gradient(to right, #d5ecd7,#b3ecb8);
+        background-size: cover;
+    }
+    .DarkModeBody {
+        background-image:linear-gradient(to right, #3a2942,#1c0d23);
+        color:rgb(231, 175, 255);
+        background-size: cover;
+    }
 
-
-    
 }
 
 
