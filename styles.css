@@ -1,4 +1,33 @@
 
+
+.ResinButton {
+    background-color: rgb(133, 233, 133);
+    width: 80pt;
+    height: 40pt;
+    border: solid 2pt green;
+    transition: 0.3s;
+}
+
+.ResinButton:hover {
+    cursor: pointer;
+    background-color: rgb(111, 176, 120);
+    width: 90pt;
+    height: 50pt;
+}
+
+.Seperate {
+    display: flex;
+    justify-content: space-around;
+}
+
+.HeaderNameDiv {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .ButtonLight {
     background-color: rgb(164, 243, 164);
     border: #ab8dc6 solid 2pt;
@@ -6,6 +35,7 @@
     height: 20pt;
     cursor: pointer;
     position: fixed;
+    transition: 0.3s;
 }
 
 .ButtonDark {
@@ -18,10 +48,28 @@
     color:rgb(168, 107, 193);
 }
 
+.ResinButtonDark {
+    background-color: rgb(29, 20, 40);
+    width: 80pt;
+    height: 40pt;
+    border: solid 2pt rgb(95, 45, 157);
+    transition: 0.3s;
+    color:rgb(231, 175, 255);
+}
+
+.ResinButtonDark:hover {
+    cursor: pointer;
+    background-color: rgb(67, 31, 97);
+    width: 90pt;
+    height: 50pt;
+}
+
+
 .MainBody {
     background-image:linear-gradient(to right, #d5ecd7,#b3ecb8);
     background-size: cover;
     color: rgb(0, 46, 0);
+    transition: 0.3s;
 }
 
 .DarkModeBody {
@@ -30,15 +78,7 @@
     background-size: cover;
 }
 
-.DarkModeHeader{
-    color:black;
-    background-image: linear-gradient(to right,#5b4860, rgb(131, 105, 137), rgb(140, 112, 152), rgb(131, 105, 137), rgb(90, 72, 96));
-    height: 30pt;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    
-}
+
 
 .VAlign {
     vertical-align:super;
@@ -52,13 +92,13 @@
 }
 
 .Text {
-    font-family: Cascadia Code;
+    font-family:sans-serif;
     text-align: center;
-    font-size: 15pt;
+    font-size: 25pt;
 }
 
 .Text3 {
-    font-family: Cascadia Code;
+    font-family: sans-serif;
     text-align: center;
     font-size: 15pt;
 }
@@ -69,7 +109,19 @@
     width: 100%;
     text-align: center;
     position: fixed;
+    transition: 0.3s;
 }
+
+.DarkModeHeader{
+    color:black;
+    background-image: linear-gradient(to right,#5b4860, rgb(131, 105, 137), rgb(140, 112, 152), rgb(131, 105, 137), rgb(90, 72, 96));
+    height: 30pt;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    
+}
+
 
 .Name {
     font-size: 20pt;
@@ -203,7 +255,7 @@
 }
 
 .Text2 {
-    font-family: Cascadia Code;
+    font-family: sans-serif;
     text-align: center;
 }
 
@@ -230,9 +282,19 @@
     height: 60px;
 }
 
+
+.Charlies_ {
+    width: 50pt;
+}
+
+.Charts_ {
+    width: 90pt;
+}
+
 .me {
     width: 200pt;
     border: #496048 solid 4pt;
+    transition: 0.3s;
 }
 
 .DarkMe {
@@ -246,6 +308,7 @@
     border-radius: 20pt;
     box-shadow: 5px 5px;
     color: black;
+    transition: 0.3s;
 }
 
 .DarkBackground {
@@ -275,10 +338,21 @@
     }
     .Header_ {
         background-image: linear-gradient(to right,#496048, rgb(106, 137, 105), rgb(113, 152, 112), rgb(106, 137, 105), rgb(73, 96, 72));
-        height: 30pt;
+        height: 60pt;
         text-align: center;
         position: fixed;
     }
+
+    .DarkModeHeader{
+        color:black;
+        background-image: linear-gradient(to right,#5b4860, rgb(131, 105, 137), rgb(140, 112, 152), rgb(131, 105, 137), rgb(90, 72, 96));
+        height: 60pt;
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        
+    }
+
     .MainBody {
         background-image:linear-gradient(to right, #d5ecd7,#b3ecb8);
         background-size: cover;
