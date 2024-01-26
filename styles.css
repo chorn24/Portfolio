@@ -89,6 +89,7 @@
     margin: 0;
     padding: 0;
     height: 100%;
+    overscroll-behavior: none;
 }
 
 .Text {
@@ -171,13 +172,26 @@
     background-color: rgb(136, 96, 140);
 }
 
-.Table_ {
+.Table_1 {
     margin-left: auto;
     margin-right: auto;
     width: 400pt;
     /*height: 155pt;*/
     display: flex;
     justify-content: center;
+}
+
+.Table_4 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600pt;
+    /*height: 155pt;*/
+    display: flex;
+    justify-content: center;
+}
+
+.ThreeTee {
+    width: 33%;
 }
 
 .Table_Mobile {
@@ -303,10 +317,18 @@
 
 }
 
+.Showcase1 {
+    display: flex;
+}
+
+.Showcase2 {
+    border: solid 3pt;
+}
+
 .Background {
-    background: rgb(100, 133, 102);
+    background: rgb(133, 233, 133);
     border-radius: 20pt;
-    box-shadow: 5px 5px;
+    box-shadow: 5px 5px green;
     color: black;
     transition: 0.3s;
 }
