@@ -1,398 +1,410 @@
-
-
 .ResinButton {
-    background-color: rgb(133, 233, 133);
-    width: 80pt;
-    height: 40pt;
-    border: solid 2pt green;
-    transition: 0.3s;
+  background-color: rgb(133, 233, 133);
+  width: 80pt;
+  height: 40pt;
+  border: solid 2pt green;
+  transition: 0.3s;
 }
 
 .ResinButton:hover {
-    cursor: pointer;
-    background-color: rgb(111, 176, 120);
-    width: 90pt;
-    height: 50pt;
+  cursor: pointer;
+  background-color: rgb(111, 176, 120);
+  width: 90pt;
+  height: 50pt;
 }
 
 .Seperate {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .HeaderNameDiv {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: space-evenly;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .ButtonLight {
-    background-color: rgb(164, 243, 164);
-    border: #ab8dc6 solid 2pt;
-    border-radius: 20pt;
-    height: 20pt;
-    cursor: pointer;
-    position: fixed;
-    transition: 0.3s;
+  background-color: rgb(164, 243, 164);
+  border: #8dc693 solid 2pt;
+  border-radius: 20pt;
+  height: 30pt;
+  width: 30pt;
+  cursor: pointer;
+  position: fixed;
+  transition: 0.3s;
+  background-image: url("images/moon\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .ButtonDark {
-    background-color: rgb(95, 57, 114);
-    border: #6ab260 solid 2pt;
-    border-radius: 20pt;
-    height: 20pt;
-    cursor: pointer;
-    position: fixed;
-    color:rgb(168, 107, 193);
+  background-color: rgb(72, 63, 133);
+  border: #19162a solid 2pt;
+  border-radius: 20pt;
+  height: 30pt;
+  width: 30pt;
+  cursor: pointer;
+  position: fixed;
+  color: rgb(168, 107, 193);
+  background-image: url("images/sun\ \(1\).png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 .ResinButtonDark {
-    background-color: rgb(29, 20, 40);
-    width: 80pt;
-    height: 40pt;
-    border: solid 2pt rgb(95, 45, 157);
-    transition: 0.3s;
-    color:rgb(231, 175, 255);
+  background-color: rgb(29, 20, 40);
+  width: 80pt;
+  height: 40pt;
+  border: solid 2pt rgb(95, 45, 157);
+  transition: 0.3s;
+  color: rgb(231, 175, 255);
 }
 
 .ResinButtonDark:hover {
-    cursor: pointer;
-    background-color: rgb(67, 31, 97);
-    width: 90pt;
-    height: 50pt;
+  cursor: pointer;
+  background-color: rgb(67, 31, 97);
+  width: 90pt;
+  height: 50pt;
 }
 
-
 .MainBody {
-    background-image:linear-gradient(to right, #d5ecd7,#b3ecb8);
-    background-size: cover;
-    color: rgb(0, 46, 0);
-    transition: 0.3s;
+  background-image: linear-gradient(to right, #d5ecd7, #b3ecb8);
+  background-size: cover;
+  color: rgb(0, 46, 0);
+  transition: 0.3s;
 }
 
 .DarkModeBody {
-    background-image:linear-gradient(to right, #3a2942,#1c0d23);
-    color:rgb(231, 175, 255);
-    background-size: cover;
+  background-image: linear-gradient(to right, #3a2942, #1c0d23);
+  color: rgb(231, 175, 255);
+  background-size: cover;
 }
-
-
 
 .VAlign {
-    vertical-align:super;
-    font-size: 20pt;
+  vertical-align: super;
+  font-size: 20pt;
 }
 
-.forgradient, .MainBody {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overscroll-behavior: none;
+.forgradient,
+.MainBody {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overscroll-behavior: none;
 }
 
 .Text {
-    font-family:sans-serif;
-    text-align: center;
-    font-size: 25pt;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25pt;
 }
 
 .Text3 {
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 15pt;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 15pt;
+}
+
+.SeperateDL {
+  display: flex;
 }
 
 .Header_ {
-    background-image: linear-gradient(to right,#496048, rgb(106, 137, 105), rgb(113, 152, 112), rgb(106, 137, 105), rgb(73, 96, 72));
-    height: 30pt;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    transition: 0.3s;
+  background-image: linear-gradient(
+    to right,
+    #496048,
+    rgb(106, 137, 105),
+    rgb(113, 152, 112),
+    rgb(106, 137, 105),
+    rgb(73, 96, 72)
+  );
+  height: 30pt;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  transition: 0.3s;
 }
 
-.DarkModeHeader{
-    color:black;
-    background-image: linear-gradient(to right,#5b4860, rgb(131, 105, 137), rgb(140, 112, 152), rgb(131, 105, 137), rgb(90, 72, 96));
-    height: 30pt;
-    width: 100%;
-    text-align: center;
-    position: fixed;
-    
+.DarkModeHeader {
+  color: black;
+  background-image: linear-gradient(
+    to right,
+    #5b4860,
+    rgb(131, 105, 137),
+    rgb(140, 112, 152),
+    rgb(131, 105, 137),
+    rgb(90, 72, 96)
+  );
+  height: 30pt;
+  width: 100%;
+  text-align: center;
+  position: fixed;
 }
-
 
 .Name {
-    font-size: 20pt;
+  font-size: 20pt;
 }
 
 .directories {
-    border: none;
-    height: 100%;
-    width: 10%;
-    text-align: center;
-    background-color: rgb(85, 119, 82);
-    border-left: solid rgb(55, 77, 53);
-    border-right: solid rgb(55, 77, 53);
+  border: none;
+  height: 100%;
+  width: 10%;
+  text-align: center;
+  background-color: rgb(85, 119, 82);
+  border-left: solid rgb(55, 77, 53);
+  border-right: solid rgb(55, 77, 53);
 }
 
 .directories:hover {
-    background-color: rgb(101, 144, 98);
-    cursor: pointer;
-
+  background-color: rgb(101, 144, 98);
+  cursor: pointer;
 }
 
 .Email {
-    width: 30pt;
-    height: 30pt;
+  width: 30pt;
+  height: 30pt;
 }
 
 .git-icon {
-    width: 30pt;
-    height: 30pt;
+  width: 30pt;
+  height: 30pt;
 }
 
 .git-icon:hover {
-    content: url(images/gitline.webp);
-    width: 30pt;
-    height: 30pt;
+  content: url(images/gitline.webp);
+  width: 30pt;
+  height: 30pt;
 }
 
 .Email:hover {
-    content: url(images/openemail.png);
+  content: url(images/openemail.png);
 }
 
 .CurrentPage {
-    background-color: rgb(116, 82, 119);
+  background-color: rgb(116, 82, 119);
 }
 
 .CurrentPage:hover {
-    background-color: rgb(136, 96, 140);
+  background-color: rgb(136, 96, 140);
 }
 
 .Table_1 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 400pt;
-    /*height: 155pt;*/
-    display: flex;
-    justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400pt;
+  /*height: 155pt;*/
+  display: flex;
+  justify-content: center;
 }
 
 .Table_4 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 600pt;
-    /*height: 155pt;*/
-    display: flex;
-    justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600pt;
+  /*height: 155pt;*/
+  display: flex;
+  justify-content: center;
 }
 
 .ThreeTee {
-    width: 33%;
+  width: 33%;
 }
 
 .Table_Mobile {
-    margin-left: auto;
-    margin-right: auto;
-    width: 210pt;
-    /*display: none;*/
-    justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 210pt;
+  /*display: none;*/
+  justify-content: center;
 }
 
-.MobileDiv{
-    display: none;
+.MobileDiv {
+  display: none;
 }
 
 .Table_Mobile2 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 210pt;
-    /*height: 140pt;*/
-    display: flex;
-    justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 210pt;
+  /*height: 140pt;*/
+  display: flex;
+  justify-content: center;
 }
-
-
 
 .Invis {
-    display: none;
+  display: none;
 }
 
-
 .Table_2 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 210pt;
-    /*height: 140pt;*/
-    display: flex;
-    justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 210pt;
+  /*height: 140pt;*/
+  display: flex;
+  justify-content: center;
 }
 
 .Table_3 {
-    margin-left: auto;
-    margin-right: auto;
-    width: 75%;
-
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 
 .CenterTheBoi {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 300pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300pt;
 }
 
-
-
 .TableAlign {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 300pt;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 300pt;
 }
 
 .Padding {
-    padding: 5pt;
+  padding: 5pt;
 }
 
 .Spacing {
-    border-spacing: 100pt;
+  border-spacing: 100pt;
 }
 
 .Icons {
-    width: 40pt;
-    margin-left: auto;
-    margin-right: auto;
+  width: 40pt;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Text2 {
-    font-family: sans-serif;
-    text-align: center;
+  font-family: sans-serif;
+  text-align: center;
 }
 
 .STool {
-    border: solid black 3pt; 
+  border: solid black 3pt;
 }
 
 .Talign {
-    text-align: center;
+  text-align: center;
 }
 
 .Star_ {
-    width: 100pt;
-    height: 40pt;
+  width: 100pt;
+  height: 40pt;
 }
 
 .Goat_ {
-    width: 115pt;
-    height: 40pt
+  width: 115pt;
+  height: 40pt;
 }
 
 .Home_ {
-    width: 90pt;
-    height: 60px;
+  width: 90pt;
+  height: 60px;
 }
 
-
 .Charlies_ {
-    width: 50pt;
+  width: 50pt;
 }
 
 .Charts_ {
-    width: 90pt;
+  width: 90pt;
 }
 
 .me {
-    width: 200pt;
-    border: #496048 solid 4pt;
-    transition: 0.3s;
+  width: 200pt;
+  border: #496048 solid 4pt;
+  transition: 0.3s;
 }
 
 .DarkMe {
-    width: 200pt;
-    border: #5a4860 solid 4pt;
-
+  width: 200pt;
+  border: #5a4860 solid 4pt;
 }
 
 .Showcase1 {
-    display: flex;
+  display: flex;
 }
 
 .Showcase2 {
-    border: solid 3pt;
+  border: solid 3pt;
 }
 
 .Background {
-    background: rgb(133, 233, 133);
-    border-radius: 20pt;
-    box-shadow: 5px 5px green;
-    color: black;
-    transition: 0.3s;
+  background: rgb(133, 233, 133);
+  border-radius: 20pt;
+  box-shadow: 5px 5px green;
+  color: black;
+  transition: 0.3s;
 }
 
 .DarkBackground {
-    background: rgb(52, 29, 66);
-    border-radius: 20pt;
-    box-shadow: 5px 5px;
-    color:rgb(168, 107, 193);
+  background: rgb(52, 29, 66);
+  border-radius: 20pt;
+  box-shadow: 5px 5px;
+  color: rgb(168, 107, 193);
 }
 
+@media only screen and (max-width: 420px) {
+  .NotMobile {
+    display: none;
+  }
 
+  .forgradient,
+  .MainBody {
+    margin: 0;
+    padding: 0;
+  }
 
+  .MobileDiv {
+    display: block;
+  }
+  .Header_ {
+    background-image: linear-gradient(
+      to right,
+      #496048,
+      rgb(106, 137, 105),
+      rgb(113, 152, 112),
+      rgb(106, 137, 105),
+      rgb(73, 96, 72)
+    );
+    height: 60pt;
+    text-align: center;
+    position: fixed;
+  }
 
-@media only screen and (max-width:420px){
+  .DarkModeHeader {
+    color: black;
+    background-image: linear-gradient(
+      to right,
+      #5b4860,
+      rgb(131, 105, 137),
+      rgb(140, 112, 152),
+      rgb(131, 105, 137),
+      rgb(90, 72, 96)
+    );
+    height: 60pt;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+  }
 
-
-    .NotMobile {
-        display: none;
-    }
-
-    .forgradient, .MainBody {
-        margin: 0;
-        padding: 0;
-    }
-
-    .MobileDiv{
-        display: block;
-    }
-    .Header_ {
-        background-image: linear-gradient(to right,#496048, rgb(106, 137, 105), rgb(113, 152, 112), rgb(106, 137, 105), rgb(73, 96, 72));
-        height: 60pt;
-        text-align: center;
-        position: fixed;
-    }
-
-    .DarkModeHeader{
-        color:black;
-        background-image: linear-gradient(to right,#5b4860, rgb(131, 105, 137), rgb(140, 112, 152), rgb(131, 105, 137), rgb(90, 72, 96));
-        height: 60pt;
-        width: 100%;
-        text-align: center;
-        position: fixed;
-        
-    }
-
-    .MainBody {
-        background-image:linear-gradient(to right, #d5ecd7,#b3ecb8);
-        background-size: cover;
-    }
-    .DarkModeBody {
-        background-image:linear-gradient(to right, #3a2942,#1c0d23);
-        color:rgb(231, 175, 255);
-        background-size: cover;
-    }
-
+  .MainBody {
+    background-image: linear-gradient(to right, #d5ecd7, #b3ecb8);
+    background-size: cover;
+  }
+  .DarkModeBody {
+    background-image: linear-gradient(to right, #3a2942, #1c0d23);
+    color: rgb(231, 175, 255);
+    background-size: cover;
+  }
 }
-
-
-
-
-
-
-
 
 /*
 
