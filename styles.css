@@ -13,6 +13,44 @@
   height: 50pt;
 }
 
+.ImageAndTextContainer {
+  display: flex;
+  justify-content: space-around;
+  margin: 10pt;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.NameAndText {
+  width: 50%;
+}
+
+.ImageContainer {
+  margin-bottom: 5pt;
+}
+
+.Card {
+  padding-top:10pt;
+  padding-bottom: 10pt;
+  width: 300pt;
+  min-width: 200pt;
+  text-align: center;
+}
+
+.TextContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.NameInText {
+  width: 80%;
+  font-size: 30pt;
+  text-align: center;
+  color: rgb(43, 117, 43);
+}
+
 .Seperate {
   display: flex;
   justify-content: space-around;
